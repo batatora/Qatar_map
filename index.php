@@ -17,14 +17,14 @@
 <body>
     <div class="nav" style="height: 118px;">
         <p><h1 id="logo_str" >Welcome <br> <span style="font-size: 36px;">to Qatar</span></h1></p>
-    </div> 
-    <center> 
+    </div>
+    <center>
         <div style="background-color:#efefef;width: 100%;">
             <div style="width:90%; padding-top: 24px;">
                 <div class="select_menu" id="select_looks">
                     <p style="margin-right: 16px; font-weight: 600; font-size: 17px; ">Look for   </p>
-                     <select id="looks" class="select_box">   
-                        <option value=""></option>    
+                     <select id="looks" class="select_box">
+                        <option value=""></option>
                         <?php
                             $sql = "SELECT * FROM looks";
                             $result = mysqli_query($conn, $sql);
@@ -34,24 +34,24 @@
                                 {
                                 $rows[] = $row;
                                 }
-                                
+
                             }
 
                             foreach($rows as $row){
-                        ?>  
+                        ?>
                                 <option value="<?php echo $row['id'];?>"><?php echo $row['look']; ?></option>
                         <?php
                             }
-                        
-                        ?>           
+
+                        ?>
                     </select>
                 </div>
                 <div class="select_menu" id="select_witch">
                     <p style="margin-right: 11px; "  >Witch one   </p>
-                    <select id ="witch" class="select_box">   
+                    <select id ="witch" class="select_box">
                         <div id="witchone">
-                        <option value="" id=></option>  
-                        </div>         
+                        <option value="" id=></option>
+                        </div>
                     </select>
                 </div>
                 <div class="btn_box">
@@ -76,3 +76,25 @@
     </center>
 </body>
 </html>
+
+//git commit commit!!!!!!
+//git commit commit!!!!!!
+//git commit commit!!!!!!
+//git commit commit!!!!!!//git commit commit!!!!!!//git commit commit!!!!!!
+//git commit commit!!!!!!
+//git commit commit!!!!!!
+//git commit commit!!!!!!//git commit commit!!!!!!//git commit commit!!!!!!
+//git commit commit!!!!!!
+//git commit commit!!!!!!//git commit commit!!!!!!//git commit commit!!!!!!
+sdfseedfsdsc
+//git commit commit!!!!!!
+padding
+
+
+
+
+
+
+
+
+

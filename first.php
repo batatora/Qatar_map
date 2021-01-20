@@ -25,23 +25,23 @@
         position: fixed;
         user-select: none;
         transition: left .5s, right .5s;
-        right: 0px; 
+        right: 0px;
     }
     .backpack.dropzone .animation {
         height: 80px;
         width: 250px;
-        background: url("chrome-extension://lifbcibllhkdhoafpjfnlhfpfgnpldfl/assets/backpack/dropzone/hoverstate.png") left center; 
+        background: url("chrome-extension://lifbcibllhkdhoafpjfnlhfpfgnpldfl/assets/backpack/dropzone/hoverstate.png") left center;
     }
     .backpack.dropzone .title::before {
-        content: 'Save to'; 
+        content: 'Save to';
     }
     .backpack.dropzone.closed {
-        right: -250px; 
+        right: -250px;
     }
     .backpack.dropzone.hover .animation {
         animation: sxt-play-anim-hover 0.91s steps(21);
         animation-fill-mode: forwards;
-        background: url("chrome-extension://lifbcibllhkdhoafpjfnlhfpfgnpldfl/assets/backpack/dropzone/hoverstate.png") left center; 
+        background: url("chrome-extension://lifbcibllhkdhoafpjfnlhfpfgnpldfl/assets/backpack/dropzone/hoverstate.png") left center;
     }
 
     @keyframes sxt-play-anim-hover {
@@ -74,7 +74,7 @@
     <center>
         <div>
             <div class="custom-select" style="width:200px;">
-                <select>       
+                <select>
                     <?php
                         $sql = "SELECT * FROM looks";
                         $result = mysqli_query($conn, $sql);
@@ -90,7 +90,7 @@
                             <option value="0"><?php echo $val; ?></option>
                     <?php
                         }
-                    ?>           
+                    ?>
                 </select>
             </div>
             <div class="mapouter">
@@ -110,3 +110,6 @@
 
 </body>
 </html>
+
+
+//git commit commit!!!!!!
